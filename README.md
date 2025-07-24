@@ -9,6 +9,7 @@ The goal was to build a SQL procedure which is able to receive details about a n
 (3) To make changes to the input (i.e. for real-time dynamics) please use the input.json file. 
 (4) To see the underlying SQL algorithm please see matched_assignments.sql
 
+# Explanation
 My 2 part schema flow is simple but effective:
 
 (1) New Customer Input with the following categories of data: Customer Name, Communication Method, Lead Source, Destination, Launch Location.
