@@ -5,11 +5,11 @@ import json
 with open('input.json') as f:
     customer = json.load(f)
 
-# Load SQL
+# SQL
 with open('matched_assignments.sql') as f:
     sql_query = f.read()
 
-# Connect and execute
+# Connect
 conn = sqlite3.connect('agents.db')
 cursor = conn.cursor()
 
